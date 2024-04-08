@@ -17,8 +17,9 @@ Route::get('/', function () {
 
     $footerLinks = config("db.footerLinks");
     $socials = config("db.socials");
+    $comics = config("db.comics");
 
     // dd($footerLinks);
     // dd($socials);
-    return view('layouts/app', compact('footerLinks', 'socials'));
+    return view('home', compact('footerLinks', 'socials', 'comics'));
 });

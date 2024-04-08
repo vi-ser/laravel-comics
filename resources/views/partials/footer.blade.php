@@ -2,7 +2,7 @@
     <div class="footer-top">
         <div class="container">
 
-            <div class="links py-5">
+            <div class="links pt-5">
 
                 @foreach($footerLinks as $linksItem)
                 <div class="link-list">
