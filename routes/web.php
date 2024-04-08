@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layouts/app');
+
+    $footerLinks = config("db.footerLinks");
+    $socials = config("db.socials");
+
+    // dd($footerLinks);
+    // dd($socials);
+    return view('layouts/app', compact('footerLinks', 'socials'));
 });

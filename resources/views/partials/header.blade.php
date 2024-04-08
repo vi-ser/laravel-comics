@@ -9,7 +9,7 @@
         <div class="nav">
             <div class="container">
                 <div id="logo-container">
-                    <img src="{{ Vite::asset('resources/images/dc-logo.png')}}" alt="">
+                    <img src="{{ Vite::asset('resources/images/dc-logo.png')}}" alt="dc logo">
                 </div>
                 <ul>
                     <li>Characters</li>
@@ -26,4 +26,6 @@
             </div>
         </div>
     </nav>
+    <div class="hero">
+    </div>
 </header>   
